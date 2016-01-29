@@ -46,7 +46,7 @@ describe('adapter `.drop()`', function() {
           if(err) throw err;
           assert(exists);
 
-          redis.exists('waterline:drop:_indicies:email', function(err, exists) {
+          redis.exists('waterline:drop:_indicies:email:jabba@hotmail.com', function(err, exists) {
             if(err) throw err;
             assert(exists);
 
