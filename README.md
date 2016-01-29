@@ -1,7 +1,7 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
 # Redis Sails/Waterline Adapter 
-[![Build Status](https://travis-ci.org/balderdashy/sails-redis.svg?branch=master)](https://travis-ci.org/balderdashy/sails-redis)
+[![Build Status](https://travis-ci.org/kallikrein/sails-redis.svg?branch=master)](https://travis-ci.org/balderdashy/sails-redis)
 [![npm version](https://badge.fury.io/js/sails-redis.svg)](http://badge.fury.io/js/sails-redis)
 [![Dependency Status](https://david-dm.org/balderdashy/sails-redis.svg)](https://david-dm.org/balderdashy/sails-redis)
 
