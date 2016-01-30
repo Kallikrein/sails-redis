@@ -48,7 +48,7 @@ describe('adapter `.destroy()`', function() {
     });
 
     it('should delete a record', function(done) {
-      console.log('MAIS OU EST CE PUTAIN DE TEST');
+      console.log('KALLIKREIN DEBUG should delete a record');
       Adapter.destroy('destroy', 'destroy', { id: model.id }, function(err) {
         assert(!err);
 
