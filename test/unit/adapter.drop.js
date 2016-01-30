@@ -44,7 +44,7 @@ describe('adapter `.drop()`', function() {
 
         redis.exists('waterline:drop:id', function(err, exists) {
           if(err) throw err;
-          redis.get('waterline:drop:id', function (err, value) {
+          redis.smember('waterline:drop:id', function (err, value) {
             console.log('KALLIKREIN DEBUG waterline:drop:id');
             console.log(value);
           });
