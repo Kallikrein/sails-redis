@@ -42,19 +42,14 @@ describe('adapter `.drop()`', function() {
         if(err) throw err;
         assert(exists);
 
-        redis.exists('waterline:drop:id', function(err, exists) {
+        redis.exists('waterline:drop:_indicies:email:jabba@hotmail.com', function(err, exists) {
           if(err) throw err;
           assert(exists);
 
-          redis.exists('waterline:drop:_indicies:email:jabba@hotmail.com', function(err, exists) {
+          redis.exists('waterline:drop:id:1', function(err, exists) {
             if(err) throw err;
             assert(exists);
-
-            redis.exists('waterline:drop:id:1', function(err, exists) {
-              if(err) throw err;
-              assert(exists);
-              done();
-            });
+            done();
           });
         });
       });
