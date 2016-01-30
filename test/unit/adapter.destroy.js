@@ -48,6 +48,7 @@ describe('adapter `.destroy()`', function() {
     });
 
     it('should delete a record', function(done) {
+      console.log('MAIS OU EST CE PUTAIN DE TEST');
       Adapter.destroy('destroy', 'destroy', { id: model.id }, function(err) {
         assert(!err);
 
