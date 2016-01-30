@@ -54,6 +54,8 @@ describe('adapter `.destroy()`', function() {
 
         Adapter.find('destroy', 'destroy', { id: model.id }, function(err, models) {
           assert(!err);
+          console.log('OK UNE ERREUR EST ICI : il y a des records');
+          console.log(models);
           assert(models.length === 0);
           done();
         });
